@@ -17,3 +17,8 @@
 - Trong Notepad chọn File => Open
 - Điều hướng đường dẫn đến: C:\apache\Apache24\conf\httpd.conf (ở phần "File type" chọn định dạng "All Files" thì mới thấy file ".conf").
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2cb8862d-96cd-4961-9379-5d303a7befbc" />
+- Cấu hình và sửa thông tin trong các files:  
+   + Define SRVROOT "c:/Apache24/LeQuocTrung"
+   + ServerName www.LungQuocTre.com:80
+   + Include conf/extra/httpd-vhosts.conf
+- 
