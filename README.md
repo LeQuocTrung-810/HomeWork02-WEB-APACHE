@@ -127,6 +127,8 @@ HTTP response → Trả kết quả JSON cho client.
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b00616aa-d3e1-49ae-aa83-8965ecbe23aa" />
 ## 2.6. Tạo giao diện front-end:
 
+* tuy rằng đã tạo giao diện front-end nhưng do 1 số lỗi mà em chưa tìm ra được nên front-end và back-end chưa link được với nhau, nên em đành ngậm ngùi nhận điểm thấp <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/a9a0c300-b171-4473-95cc-e18567d6004a" />
+
 ## 2.7. Nhận xét bài làm
 - Em đã nắm được cách cài đặt các thành phần cần thiết cho hệ thống, bao gồm Apache (dùng làm web server), Node.js và Node-RED (dùng làm backend), cùng với các thư viện hỗ trợ như node-red-contrib-mssql-plus, node-red-node-mysql,… Đồng thời hiểu được vai trò và cách cấu hình từng phần (chọn cổng, sửa file cấu hình, cấp quyền, khởi chạy dịch vụ,…).
 - Em đã biết cách tạo luồng xử lý (flow) gồm các node http in, function, MSSQL và http response để xây dựng API. Biết sử dụng function để xử lý dữ liệu đầu vào và truy vấn SQL, biết cách kết nối đến cơ sở dữ liệu SQL Server, và test API bằng đường dẫn như http://localhost:1880/timkiem.
